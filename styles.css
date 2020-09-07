@@ -1,0 +1,28 @@
+/* CSS Variables / Custom Properties */
+:root {
+  --serif-font: 'PT Serif', serif;
+  --sans-serif-font: 'Lato', sans-serif;
+}
+
+body, html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--serif-font);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
+
+.header {
+
+}
+
+.content {
+
+}
+
+.footer {
+
+}
