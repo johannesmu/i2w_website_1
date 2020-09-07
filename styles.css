@@ -2,6 +2,12 @@
 :root {
   --serif-font: 'PT Serif', serif;
   --sans-serif-font: 'Lato', sans-serif;
+  /* CSS HEX */
+  --darker: #00171fff;
+  --dark: #003459ff;
+  --secondary: #007ea7ff;
+  --primary: #ffd97dff;
+  --secondary-light: #00a8e8ff;
 }
 
 body, html {
@@ -16,7 +22,26 @@ body {
 }
 
 .header {
-
+  background-color: var(--primary);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.logo {
+  max-width: 120px;
+  padding: 10px;
+}
+.navbutton {
+  width: 48px;
+  background-image: url('assets/icons/bars-solid.png');
+  height: 48px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-nav {
+  align-self: end;
+  justify-self: end;
+  display: flex;
 }
 
 .content {
@@ -24,5 +49,5 @@ body {
 }
 
 .footer {
-
+  background-color: var(--dark);
 }
